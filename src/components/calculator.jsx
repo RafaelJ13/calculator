@@ -16,7 +16,7 @@ function Calculator() {
         // números
         if (!isNaN(num)) {
             if (calculated) {
-                setValue(num);        // começa novo número
+                setValue(num);       
                 setCalculated(false);
             } else {
                 setValue(prev => prev === "0" ? num : prev + num);
